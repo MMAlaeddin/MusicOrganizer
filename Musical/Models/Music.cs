@@ -1,8 +1,8 @@
 using System;
 
-namespace Music.Solution.Models
+namespace Organzier.Models
 {
-    public class ErrorViewModel
+    public class Songs
     {
         public string RequestId { get; set; }
 
