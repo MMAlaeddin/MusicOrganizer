@@ -1,11 +1,13 @@
 using System;
+using System.Collections.Generic;
 
 namespace Organzier.Models
 {
-    public class Songs
-    {
-        public string RequestId { get; set; }
-
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
-    }
+  public class Sounds
+  {
+    public string Artist { get; set; }
+    public string Song { get; set; }
+    public string Genre { get; set; }
+    
+  }
 }
