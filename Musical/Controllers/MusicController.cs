@@ -13,6 +13,11 @@ namespace Organzier.Controllers
         Sound newSound = new Sound(artist, song, genre);
         return RedirectToAction("Index", newSound);
       }
+      [HttpGet("/artists/new")]
+      public ActionResult New()
+      {
+        return View();
+      }
     }
   }
 }
