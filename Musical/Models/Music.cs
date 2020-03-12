@@ -10,7 +10,7 @@ namespace Organizer.Models
     public string Genre { get; set; }
     private static List<Sound> _instances = new List<Sound> {};
     
-    public Sounds(string artist, string song, string genre)
+    public Sound(string artist, string song, string genre)
     {
       Artist = artist;
       Song = song;
