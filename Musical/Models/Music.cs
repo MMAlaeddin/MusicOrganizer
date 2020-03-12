@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Organzier.Models
+namespace Organizer.Models
 {
   public class Sound
   {
@@ -17,7 +17,9 @@ namespace Organzier.Models
       Genre = genre;
       _instances.Add(this); 
     }
-    
-
+    public static List<Sound> GetAll()
+    {
+      return _instances;
+    }
   }
 }

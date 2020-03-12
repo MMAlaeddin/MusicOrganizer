@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using Organzier.Models;
+using Organizer.Models;
 using System.Collections.Generic;
 
-namespace Organzier.Controllers
+namespace Organizer.Controllers
 {
   public class MusicController : Controller
   {
