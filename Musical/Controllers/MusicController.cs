@@ -7,7 +7,6 @@ namespace Organzier.Controllers
   public class MusicController : Controller
   {
     [HttpPost("/artists")]
-    {
       public ActionResult Create(string artist, string song, string genre)
       {
         Sound newSound = new Sound(artist, song, genre);
@@ -18,6 +17,5 @@ namespace Organzier.Controllers
       {
         return View();
       }
-    }
   }
 }

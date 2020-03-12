@@ -14,7 +14,8 @@ namespace Organzier.Models
     {
       Artist = artist;
       Song = song;
-      Genre = genre; 
+      Genre = genre;
+      _instances.Add(this); 
     }
     
 
