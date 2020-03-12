@@ -2,7 +2,6 @@
 using Organizer.Models;
 
 namespace Organizer.Controllers
-
 {
   public class HomeController : Controller
   {
