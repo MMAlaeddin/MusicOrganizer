@@ -12077,9 +12077,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mariamalaeddin/Desktop/Music.Solution/Music.Solution.csproj",
-      "projectName": "Music.Solution",
-      "projectPath": "/Users/mariamalaeddin/Desktop/Music.Solution/Music.Solution.csproj",
+      "projectUniqueName": "/Users/mariamalaeddin/Desktop/Music.Solution/Music.csproj",
+      "projectName": "Music",
+      "projectPath": "/Users/mariamalaeddin/Desktop/Music.Solution/Music.csproj",
       "packagesPath": "/Users/mariamalaeddin/.nuget/packages/",
       "outputPath": "/Users/mariamalaeddin/Desktop/Music.Solution/obj/",
       "projectStyle": "PackageReference",
